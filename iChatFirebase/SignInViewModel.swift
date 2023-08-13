@@ -12,7 +12,7 @@ class SignInViewModel:ObservableObject {
     var email = ""
     var password = ""
     
-    func sigIn() {
+    func signIn() {
         print("email: \(email), senha: \(password)")
     }
 }

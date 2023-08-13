@@ -12,6 +12,7 @@ struct SignInView: View {
       @StateObject var viewModel = SignInViewModel()
     
     var body: some View {
+        NavigationView  {
         VStack {
          Image("chat_logo")
                 .resizable()
@@ -44,7 +45,7 @@ struct SignInView: View {
                 .padding(.bottom, 30)
             
             Button {
-                viewModel.sigIn()
+                viewModel.signIn()
             } label: {
                 Text("Entrar")
                     .frame(maxWidth: .infinity)
@@ -55,17 +56,23 @@ struct SignInView: View {
             }
             
             Divider()
+                .padding()
             
-            Button {
-                print("clicado 2!")
-            } label: {
-                Text("Não tenho uma conta? Clique aqui")
-            }
+            NavigationLink (
+                destination: SignUpView()) {
+                    
+                    Text("Não tenho uma conta? Clique aqui")
+                        .foregroundColor(Color.black)
+                }
+            
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding(.horizontal, 32)
         .background(Color.init(red: 240 / 255, green: 231 / 255, blue: 210 / 255))
+        .navigationTitle("Login")
+        .navigationBarHidden(true)
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {
