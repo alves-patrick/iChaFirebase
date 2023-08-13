@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>151753807505-sohi7r14hgdkj51ki7gl3rpg16copkns.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.151753807505-sohi7r14hgdkj51ki7gl3rpg16copkns</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQIH1cw-NKWsYichzDXiN9QToiH9ICm6I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>151753807505</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>alves-patrick.iChatFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>ichatfirebase-96807</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ichatfirebase-96807.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:151753807505:ios:2486fd8c23df067b7a1130</string>
+</dict>
+</plist>

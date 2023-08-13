@@ -14,6 +14,7 @@
 		7D94EBDD2A89752C00ED8896 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94EBDC2A89752C00ED8896 /* SignInViewModel.swift */; };
 		7D94EBDF2A89759700ED8896 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94EBDE2A89759700ED8896 /* SignUpView.swift */; };
 		7D94EBE12A8975D000ED8896 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94EBE02A8975D000ED8896 /* SignUpViewModel.swift */; };
+		7DFBC75A2A899D1A004493FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DFBC7592A899D1A004493FA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7D94EBDC2A89752C00ED8896 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		7D94EBDE2A89759700ED8896 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		7D94EBE02A8975D000ED8896 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		7DFBC7592A899D1A004493FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		7D7EF6962A8970D5001780F3 /* iChatFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				7DFBC7592A899D1A004493FA /* GoogleService-Info.plist */,
 				7D94EBDC2A89752C00ED8896 /* SignInViewModel.swift */,
 				7D94EBDE2A89759700ED8896 /* SignUpView.swift */,
 				7D94EBE02A8975D000ED8896 /* SignUpViewModel.swift */,
@@ -138,6 +141,7 @@
 			files = (
 				7D7EF6A02A8970D6001780F3 /* Preview Assets.xcassets in Resources */,
 				7D7EF69C2A8970D6001780F3 /* Assets.xcassets in Resources */,
+				7DFBC75A2A899D1A004493FA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
