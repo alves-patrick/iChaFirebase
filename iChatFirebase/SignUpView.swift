@@ -55,6 +55,11 @@ struct SignUpView: View {
                   )
               .padding(.bottom, 30)
           
+          if viewModel.isLoading {
+              ProgressView()
+                  .padding()
+          }
+          
           Button {
               viewModel.signUp()
           } label: {
@@ -65,16 +70,11 @@ struct SignUpView: View {
                   .foregroundColor(Color.white)
                   .cornerRadius(24.0)
           }
-          
-          Divider()
-              .padding()
-          
-          Button {
-              print("clicado 2!")
-          } label: {
-              Text("Não tenho uma conta? Clique aqui")
-                  .foregroundColor(Color.black)
+          .alert(isPresented: $viewModel.formInvalid) {
+              Alert(title: Text(viewModel.alertText))
           }
+          
+
       }
       .frame(maxWidth: .infinity, maxHeight: .infinity)
       .padding(.horizontal, 32)
