@@ -1,0 +1,6 @@
+framework module Pods_iChatFirebase {
+  umbrella header "Pods-iChatFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}
