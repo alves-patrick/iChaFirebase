@@ -17,6 +17,7 @@
 		7DC3C2112A8A3435001E1B12 /* Pods_iChatFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AF706DDE1258F62DB0F89D /* Pods_iChatFirebase.framework */; };
 		7DC3C2122A8A3435001E1B12 /* Pods_iChatFirebase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22AF706DDE1258F62DB0F89D /* Pods_iChatFirebase.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		7DFBC75A2A899D1A004493FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DFBC7592A899D1A004493FA /* GoogleService-Info.plist */; };
+		7DFCB82D2A8ACE1A00A6C2B2 /* imagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFCB82C2A8ACE1A00A6C2B2 /* imagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,7 @@
 		7D94EBDE2A89759700ED8896 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		7D94EBE02A8975D000ED8896 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		7DFBC7592A899D1A004493FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7DFCB82C2A8ACE1A00A6C2B2 /* imagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagePicker.swift; sourceTree = "<group>"; };
 		A2567FFF51E47A43F0196B9C /* Pods-iChatFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChatFirebase.release.xcconfig"; path = "Target Support Files/Pods-iChatFirebase/Pods-iChatFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,7 @@
 				7D94EBE02A8975D000ED8896 /* SignUpViewModel.swift */,
 				7D7EF6972A8970D5001780F3 /* iChatFirebaseApp.swift */,
 				7D7EF6992A8970D5001780F3 /*   SignInView.swift */,
+				7DFCB82C2A8ACE1A00A6C2B2 /* imagePicker.swift */,
 				7D7EF69B2A8970D6001780F3 /* Assets.xcassets */,
 				7D7EF69D2A8970D6001780F3 /* iChatFirebase.entitlements */,
 				7D7EF69E2A8970D6001780F3 /* Preview Content */,
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D94EBDF2A89759700ED8896 /* SignUpView.swift in Sources */,
+				7DFCB82D2A8ACE1A00A6C2B2 /* imagePicker.swift in Sources */,
 				7D7EF69A2A8970D5001780F3 /*   SignInView.swift in Sources */,
 				7D94EBE12A8975D000ED8896 /* SignUpViewModel.swift in Sources */,
 				7D7EF6982A8970D5001780F3 /* iChatFirebaseApp.swift in Sources */,
