@@ -11,35 +11,15 @@ struct SignInView: View {
     
       @StateObject var viewModel = SignInViewModel()
       @State var isShowPhotoLibrary = false
+    
     var body: some View {
         NavigationView  {
         VStack {
     
-            Button {
-                isShowPhotoLibrary = true
-            } label: {
-                if viewModel.image.size.width > 0 {
-                    Image(uiImage: viewModel.image)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 130, height: 130)
-                        .clipShape(Circle())
-                        .overlay(Circle().stroke(Color("GreenColor"), lineWidth: 4))
-                        .shadow(radius: 7)
-                                                 
-                } else {
-                    Text("Foto")
-                        .frame(width: 130, height: 130)
-                        .padding()
-                        .background(Color("GreenColor"))
-                        .foregroundColor(Color.white)
-                        .cornerRadius(100.0)
-                }
-            }
-            .padding(.bottom, 32)
-            .sheet(isPresented: $isShowPhotoLibrary) {
-                ImagePicker(selectedImage: $viewModel.image)
-            }
+      Image("chat_logo")
+                .resizable()
+                .scaledToFit()
+                .padding()
             
             TextField("Entre com seu e-mail", text : $viewModel.email)
                 .autocapitalization(.none)
