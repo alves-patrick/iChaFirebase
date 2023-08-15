@@ -10,7 +10,7 @@ import SwiftUI
 struct SignInView: View {
     
       @StateObject var viewModel = SignInViewModel()
-      @State var isShowPhotoLibrary = false
+  //    @State var isShowPhotoLibrary = false
     
     var body: some View {
         NavigationView  {

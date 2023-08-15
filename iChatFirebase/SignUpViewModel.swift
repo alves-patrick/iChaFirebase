@@ -47,7 +47,7 @@ class SignUpViewModel:ObservableObject {
     }
     private func uploadPhoto() {
         let filename = UUID().uuidString
-        
+        _ = Data()
         guard let data = image.jpegData(compressionQuality: 0.2)  else { return }
         
         let newMetadata = StorageMetadata()
@@ -56,10 +56,17 @@ class SignUpViewModel:ObservableObject {
         let ref = Storage.storage().reference(withPath: "/images/\(filename).jpg")
         
         ref.putData(data, metadata: newMetadata) { metadata, err in
-            ref.downloadURL { url, error in
+            ref.downloadURL { url, error  in
                 self.isLoading = false
+                guard let url = url else { return }
                 print("foto criada \(url)")
+                self.createUser(photoUrl: url)
             }
         }
     }
+    
+    private func createUser(photoUrl: URL) {
+        
+    }
+    
 }
